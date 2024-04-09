@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <link rel="stylesheet" href="css/AboutUs.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logog.jpg" alt="logo"></div>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="login.php">LOGIN</a></li>
+            <li><a href="reg.php">REGISTRATION</a></li>
+        </ul>
+        <!--<div class="rightnav">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
+                width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                </path>
+              </svg></button>
+        </div>-->
+        <div class="rightnav">
+            <form action="search.php" method="post">
+                <select name="search_category">
+                    <option value="faculty_name">Faculty Name</option>
+                    <option value="designation">Designation</option>
+                    <option value="expertise">Expertise</option>
+                    <option value="department">Department</option>
+                    <option value="publication">Research Paper/Publication</option>
+                    <option value="conference">Conference</option>
+                </select>
+                <input type="text" name="search_query" placeholder="Search...">
+                
+                <button type="submit" class="btn btn-sm">Search</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <header class="A">
+        <h1 style="font-size: 50px;margin-bottom: 20px;">About Us </h1>
+        <h2 style="font-size: 40px;text-align: center;">Welcome to Gyananshu: The Scholar Connect !</h2>
+
+        <p style="font-size: 20px;">  Gyananshu serves as a pivotal platform within Banasthali Vidyapith's Department of Computer Science, facilitating seamless access to academic and research-related information. Through its intuitive interface and robust features, including scholar profiles, advanced
+             search capabilities, and project management tools, Gyananshu empowers researchers, students, and institutions to collaborate effectively. By centralizing resources and promoting transparency, Gyananshu fosters a culture of knowledge exchange and innovation, driving 
+             academic growth and enhancing the visibility of research endeavors. It stands as a testament to Banasthali Vidyapith's commitment to excellence in computer science education and research, harnessing the power of technology to advance knowledge and forge meaningful connections within the academic community.</p>
+        <div class="image-container">
+            <img src="images/a1.jpg" alt="Header Image">
+        </div>
+        <div class="sec">
+            <h2 class="objective-heading">Our Objectives </h2>
+            <hr class="divider">
+            <div class="icon">
+                <i class="icon fas fa-folder-open"></i>
+            </div>
+            <h3 style="font-size: 25px;" class="objective-title" >Centralize Data:</h3>
+            <h5 style="font-size: 20px;" class="objective-description">Gyananshu serves as a central repository for academic and research data within Banasthali Vidyapith's Department of Computer Science.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Foster Collaboration:</h3>
+            <h5 style="font-size: 20px;" class="objective-description">It facilitates collaboration among faculty, researchers, and students by connecting individuals with similar research interests.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Enhance Transparency: </h3>
+            <h5 style="font-size: 20px;" class="objective-description">Gyananshu provides transparent access to scholarly data, promoting informed decision-making and trust within the academic community.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Promote Growth: </h3>
+            <h5 style="font-size: 20px;" class="objective-description">The platform offers tools and resources for scholars and students to contribute to the advancement of knowledge in computer science.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Support Innovation:</h3>
+            <h5 style="font-size: 20px;" class="objective-description">Gyananshu fosters innovation by facilitating the dissemination of research findings and creating an environment conducive to the development of new ideas and technologies. </h5>
+        </div>
+    </header>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Add footer content, such as contact information or links -->
+        <h3 class="contact">Get in touch</h3>
+        <h4>Department of Computer Science<br>Banasthali Vidhyapith<br>Jaipur,Rajasthan</h4>
+        <h5 class="fill-white">
+            Copyright &copy;2023 Gyananshu: The Scholar Connect
+        </h5>
+    </footer>
+</body>
+</html>

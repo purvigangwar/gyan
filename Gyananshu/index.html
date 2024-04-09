@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/AboutUs.css">
+    <link rel="stylesheet" href="css/News.css">
+    <title>Gyananshu - A Scholar Connect</title>
+</head>
+<body>
+    <!-- Logout Message -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          // Check if the URL contains the 'message=logged_out' query parameter
+          const params = new URLSearchParams(window.location.search);
+          const message = params.get('message');
+      
+          if (message === 'logged_out') {
+            // Display the logout message
+            alert('You have been successfully logged out.');
+            
+            // Optional: Remove the query parameters from the URL without reloading the page
+            history.replaceState(null, null, window.location.pathname);
+          }
+        });
+      </script>
+      
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logog.jpg" alt="logo">
+            </div>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="login.php">LOGIN</a></li>
+            <li><a href="reg.php">REGISTRATION</a></li>            
+        </ul>
+        
+        <div class="rightnav">
+            <form action="searchresults.php" method="post">
+                <select name="search_category">
+                    <option value="faculty_name">Faculty Name</option>
+                    <option value="designation">Designation</option>
+                    <option value="expertise">Expertise</option>
+                    <option value="department">Department</option>
+                    <option value="publication">Research Paper/Publication</option>
+                    <option value="conference">Conference</option>
+                </select>
+                <input type="text" name="search_query" placeholder="Search...">
+                
+                <button type="submit" class="btn btn-sm">Search</button>
+            </form>
+        </div>
+    </nav>
+    <section style="background-image: url('images/bg4.png'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px;">
+        <h1>GYANANSHU: THE SCHOLAR CONNECT</h1>
+        <p>Welcome to Gyananshu, your gateway to the world of academic excellence!<br> Explore the latest research, connect with distinguished faculty,<br> and discover a treasure trove of knowledge at Banasthali Vidyapith's<br> Department of Computer Science and Artificial Intelligence.</p>
+    </section>  
+    
+    <header class="A">
+        <h1 style="font-size: 50px;margin-left: 50px; margin-bottom: 20px;">About Us </h1>
+        <h2 style="font-size: 40px;text-align: center;">Welcome to Gyananshu: The Scholar Connect !</h2>
+        <p style="font-size: 20px; color: #000;">Gyananshu serves as a pivotal platform within Banasthali Vidyapith's Department of Computer Science, facilitating seamless access to academic and research-related information. Through its intuitive interface and robust features, including scholar profiles, advanced
+            search capabilities, and project management tools, Gyananshu empowers researchers, students, and institutions to collaborate effectively. By centralizing resources and promoting transparency, Gyananshu fosters a culture of knowledge exchange and innovation, driving
+            academic growth and enhancing the visibility of research endeavors. It stands as a testament to Banasthali Vidyapith's commitment to excellence in computer science education and research, harnessing the power of technology to advance knowledge and forge meaningful connections within the academic community.</p>
+        <div class="image-container">
+            <img src="images/a1.jpg" alt="Header Image">
+        </div>
+        <div class="sec">
+            <h2 class="objective-heading">Our Objectives </h2>
+            <hr class="divider">
+            <h3 style="font-size: 25px;" class="objective-title">Centralize Data:</h3>
+            <h5 style="font-size: 20px;" class="objective-description">Gyananshu serves as a central repository for academic and research data within Banasthali Vidyapith's Department of Computer Science.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Foster Collaboration:</h3>
+            <h5 style="font-size: 20px;" class="objective-description">It facilitates collaboration among faculty, researchers, and students by connecting individuals with similar research interests.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Enhance Transparency: </h3>
+            <h5 style="font-size: 20px;" class="objective-description">Gyananshu provides transparent access to scholarly data, promoting informed decision-making and trust within the academic community.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Promote Growth: </h3>
+            <h5 style="font-size: 20px;" class="objective-description">The platform offers tools and resources for scholars and students to contribute to the advancement of knowledge in computer science.</h5>
+            <h3 style="font-size: 25px;" class="objective-title">Support Innovation:</h3>
+            <h5 style="font-size: 20px;" class="objective-description">Gyananshu fosters innovation by facilitating the dissemination of research findings and creating an environment conducive to the development of new ideas and technologies. </h5>
+        </div>
+    </header>
+
+    <!---News And Announcement---->
+    <div class="news">
+        <h1>News &<br> Announcements</h1>
+        <div class="section">
+            <div class="section__content">
+                <img src="images/News.jpg" class="left" alt="News Image">
+                <div class="description left-description">
+                    <h2>Latest News</h2>
+                    <hr>
+                    <p style="margin-top: 10px;">Hon'ble Vice-President, Shri Jagdeep Dhankhar & Dr. Sudesh Dhankhar being welcomed by students of Banasthali Vidyapith on their arrival at the University campus today. </p>
+                </div>
+            </div>
+            
+            <div class="section__content">
+                <img src="images/Conference.jpg" class="right" alt="Announcement Image">
+                <div class="description right-description">
+                    <h2>Latest Announcement</h2>
+                    <hr>
+                    <p style="margin-top: 10px;">The 26th Annual Conference of the Society of Statistics, Computer and Applications (SSCA), is being jointly
+                        organized by the Department of Mathematics and Statistics & Centre for Artificial Intelligence, Banasthali
+                        Vidyapith</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3 class="contact">Get in touch</h3>
+        <h4>Department of Computer Science<br>Banasthali Vidhyapith<br>Jaipur,Rajasthan</h4>
+        <h5 class="fill-white">Copyright &copy;2023 Gyananshu: The Scholar Connect</h5>
+    </footer>
+
+</body>
+</html>
+

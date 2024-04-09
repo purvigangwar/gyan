@@ -1,0 +1,177 @@
+/* Your existing CSS styles */
+
+.poppins-regular {
+    font-family: "Poppins", 'sans-serif';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outer-section {
+    background-color: #ebebeb; 
+    padding: 20px; 
+}
+
+.inner-section {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.faculty {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image {
+    flex: 0 0 10%; 
+    margin-right: 20px; 
+    margin-left: 30px;
+    border: 5px solid #6f6f6f; 
+    border-radius: 5px; 
+}
+
+.image img {
+    max-width: 200px;
+    width: 200px;
+    height: 250px;
+    border-radius: 3px; /* Optional: Add border radius to the image itself */
+}
+
+.details {
+    flex: 1; 
+}
+.details h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+.details h3{
+    margin-left: 60px;
+}
+
+.details p {
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+/* Add this CSS to your existing faculty.css file */
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 550px;
+}
+
+/* CSS styles */
+
+.expertise-section {
+    margin-left: 20px;
+}
+
+.bg-section {
+    background-color: #ebebeb;
+    padding-top: 10px;
+    padding: 20px; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+    margin-left: 300px;
+}
+
+.info {
+    padding-left: 20px; 
+    padding-top: 7px;
+}
+
+.info h3 {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 5px;
+}
+h3 i{
+    margin-right: 15px;
+}
+
+.info ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.info ul li {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+}
+
+.info h3 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+}
+
+.edit-button {
+    float: right;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.edit-button:hover {
+    background-color: #595a5a;
+}
+
+/* Modal Styles */
+.modal {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 999;
+    margin-right: 500px;
+    transform: translate(400px, 0px);
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.close-button {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.modal-toggle {
+    display: none;
+}
+
+/* Show modal when checkbox is checked */
+.modal-toggle:checked + .modal {
+    display: block;
+}
+
+/* Hide modal when checkbox is not checked */
+.modal-toggle:not(:checked) + .modal {
+    display: none;
+}
+
+/* Additional CSS for modal input fields */
+.modal-content input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}

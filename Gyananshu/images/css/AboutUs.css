@@ -1,0 +1,104 @@
+
+/*----CSS---*/
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-content {
+    flex: 1;
+    max-width: 75%;
+    color: #171414;
+}
+.about-content h2 {
+    color: rgb(27, 23, 23);
+    font-size: 24px; /* Set heading color */
+    margin-bottom: 10px;
+}
+
+.image-container {
+    margin-top: 20px; 
+}
+
+.image-container img {
+    
+    height: 350px; 
+    width: 600px;
+    border-radius: 5%; /* Apply circular border */
+    border: 3px solid grey; 
+}
+
+.header-content {
+    overflow: hidden; 
+}
+.A p{
+    position: absolute; 
+    margin-top: 30px; 
+    margin-left: 675px;
+    width: 550px; 
+    color: rgb(67, 66, 66);
+}
+.sec {
+    background-color: #f1efef; 
+    height: 550px; 
+    margin-top: 20px; 
+    margin-left: -40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.objective-heading {
+    font-size: 50px; 
+    margin-left: 40px;
+    color: #171414;
+}
+
+.divider {
+    margin-top: 0px; 
+    margin-bottom: 20px; 
+}
+
+.objective-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: black;
+}
+
+.objective-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #5d5c5c;
+}
+.icon {
+    margin-top: 10px;
+    margin-left: 40px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    margin-top: -10px; 
+    height: 200px;
+}
+h4{
+    color: white;
+    margin-top: 5px;
+}
+footer .contact {
+    font-size: 24px; 
+}
+footer .contact {
+    font-size: 24px; 
+}
+.fill-white {
+    color: white; 
+    font-size: 13px; 
+    margin-top: 30px;
+}

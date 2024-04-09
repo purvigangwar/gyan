@@ -1,0 +1,227 @@
+/* Reset some default styles and set box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navbar container */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the navigation list */
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+/* Style the list items */
+.nav-list li {
+    margin-right: 15px;
+}
+
+/* Style the anchor tags */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 40px; /* Adjust the height as needed */
+    margin-right: 10px;
+    border: 3px solid rgb(119, 108, 108);
+    border-radius: 50px; /* Add space between logo and home */
+}
+
+/* Style the right navigation section */
+.rightnav {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the search input */
+#search {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Style the search button */
+.btn {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Style the button on hover */
+.btn:hover {
+    background-color: #bbb;
+}
+
+/* Additional styling for the home page section */
+section {
+    
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* Make the section take the full viewport height */
+    padding: 20px;
+}
+
+section h1 {
+    font-size: 100px; /* Increase font size for the title */
+    margin-bottom: 20px;
+    color: rgb(8, 8, 8);
+}
+
+section p {
+    color: rgb(30, 23, 23);
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+/* Style the login page */
+.login-page {
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-page h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login-page input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.login-page button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-page button:hover {
+    background-color: #45a049;
+}
+/* Add these styles to your existing CSS or customize as needed */
+
+/* Style the social login buttons */
+.social-btns-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.social-btn {
+    background-color: #ddd;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.google-btn {
+    background-color: #4285F4;
+    color: white;
+}
+
+.scopus-btn {
+    background-color: #5C8DBC;
+    color: white;
+}
+
+.google-scholar-btn {
+    background-color: #4285F4;
+    color: white;
+    /* Customize the color and styles as needed */
+}
+
+.social-btn img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Style the sign-up page */
+.signup-page {
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-page h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signup-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-page label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.signup-page input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.signup-page button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-page button:hover {
+    background-color: #45a049;
+}
+
+

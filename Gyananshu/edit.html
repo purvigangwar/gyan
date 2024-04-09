@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Faculty Profile</title>
+    <link rel="stylesheet" href="edit.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logog.jpg" alt="logo">
+            </div>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="login.php">LOGIN</a></li>
+            <li><a href="reg.php">REGISTRATION</a></li>            
+        </ul>
+        
+        <div class="rightnav">
+            <form action="searchresults.php" method="post">
+                <select name="search_category">
+                    <option value="faculty_name">Faculty Name</option>
+                    <option value="designation">Designation</option>
+                    <option value="expertise">Expertise</option>
+                    <option value="department">Department</option>
+                    <option value="publication">Research Paper/Publication</option>
+                    <option value="conference">Conference</option>
+                </select>
+                <input type="text" name="search_query" placeholder="Search...">
+                
+                <button type="submit" class="btn btn-sm">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="con">
+        <h2>Edit Faculty Profile</h2>
+        <form action="submit_edit_profile.php" method="post">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="designation">Designation:</label>
+                <input type="text" id="designation" name="designation" required>
+            </div>
+            <div class="form-group">
+                <label for="qualification">Qualification:</label>
+                <input type="text" id="qualification" name="qualification" required>
+            </div>
+            <div class="form-group">
+                <label for="expertise">Expertise:</label>
+                <input type="text" id="expertise" name="expertise" required>
+            </div>
+            <h3>Research Paper Information</h3>
+            <div class="form-group">
+                <label for="paper_title">Research Paper Title:</label>
+                <input type="text" id="paper_title" name="paper_title">
+            </div>
+            <div class="form-group">
+                <label for="publisher">Publisher:</label>
+                <input type="text" id="publisher" name="publisher">
+            </div>
+            <div class="form-group">
+                <label for="paper_type">Research Paper Type:</label>
+                <input type="text" id="paper_type" name="paper_type">
+            </div>
+            <div class="form-group">
+                <label for="paper_link">Research Paper Link:</label>
+                <input type="url" id="paper_link" name="paper_link">
+            </div>
+            <div class="form-group">
+                <label for="year">Year:</label>
+                <input type="number" id="year" name="year">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

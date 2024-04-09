@@ -1,0 +1,69 @@
+body {
+    background-color: #f2f2f2; /* Light grey background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    position: relative; /* Add position relative */
+}
+
+.content h1 {
+    font-size: 35px;
+    margin-bottom: 56px; /* Add margin to create space between h1 and form */
+    margin-top: -30px;
+}
+
+.contact-form {
+    width: 100%; /* Set form width to 100% */
+    background-color: #e6e4e4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(30, 23, 23);
+    padding: 20px;
+    position: relative; /* Add position relative */
+    top: -20px; /* Adjust to move the form up */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin: 10px auto; 
+    display: block; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 10px;
+    margin: 10px auto; /* Center horizontally */
+    display: block; /* Ensure button is displayed as block element */
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form input[type="text"]:hover,
+.contact-form input[type="email"]:hover,
+.contact-form textarea:hover {
+    border: 1px solid #393939; /* Change border color on hover */
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: gray;
+}

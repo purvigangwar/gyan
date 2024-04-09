@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty</title>
+    <link rel="stylesheet" href="faculty1.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="images/logog.jpg" alt="logo">
+            </div>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="login.php">LOGIN</a></li>
+            <li><a href="reg.php">REGISTRATION</a></li>            
+        </ul>
+        <div class="rightnav">
+            <form action="search.php" method="post">
+                <select name="search_category">
+                    <option value="faculty_name">Faculty Name</option>
+                    <option value="designation">Designation</option>
+                    <option value="expertise">Expertise</option>
+                    <option value="department">Department</option>
+                    <option value="publication">Research Paper/Publication</option>
+                    <option value="conference">Conference</option>
+                </select>
+                <input type="text" name="search_query" placeholder="Search...">
+                
+                <button type="submit" class="btn btn-sm">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    
+    <div class="outer-section">
+        <div class="inner-section">
+            <a href="#" class="edit-button"><i class="fas fa-edit"></i> Edit Profile</a>
+            <!-------Faculty Information----->
+
+            <div class="faculty">
+                <div class="image">
+                    <img src="images/faculty1.jpg" alt="Faculty Image">
+                </div>
+                <div class="details">
+                    <h2>Dr Sudeshna Sarkar</h2>
+                    <h3>Affiliation</h3>
+                    <p>Department of Computer Science</p>
+                    <h3>Biography</h3>
+                    <p>Dr Sudeshna Sarkar Obtained Ph.D.(Development of Fast VLSI RBSD Pipelined Arithmetic Logic Unit) form UttarPradesh Technical University, 
+                        M. Tech. (Digital Systems), B. Tech (EC) Hons from T.I.E.T., Patiala. Gold Medal for Pre-Engg. Examination, GND University has published around 15
+                        research papers and articles. Her area of interest is VLSI Design, Computer Architecture. Currently she is Principal, women Enginneering College, 
+                        IET Alwar, Rajasthan, India. Member of IEEE, IETE,</p>
+                </div>
+            </div>
+
+            <!-- Table for Sections -->
+            <!--<div class="container">
+                <table class="section-table" >
+                    <tr>
+                        <th><a href="#expertise" class="active navlink"></a>
+                            <i class="fas fa-briefcase"></i> Expertise</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-user"></i> Personal Information</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-chart-line"></i> Experience</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-graduation-cap"></i> Qualification</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-book"></i> Publications</th>
+                    </tr>
+                </table>
+            </div>-->     
+
+
+            <!---Experties-->
+            <div class="bg-section" id="expertise">
+                <div class="info">
+                    <hr>
+                    <h3><i class="fas fa-briefcase"></i>Expertise</h3>
+                    <hr>
+                    <ul>
+                        <li>Computer Science</li>
+                        <li>Natural Language Processing</li>
+                        <li>Machine Learning</li>
+                        <li>Data Mining</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--Personal Information-->
+            <div class="bg-section">
+                <div class="info">
+                    <hr>
+                    <h3><i class="fas fa-user"></i>Personal Information</h3>
+                    <hr>
+                    <h4>Dr Sudeshna Sarkar</h4>
+                    <p>Female</p>
+                    <p>Department Of Computer Science And Engineering</p>
+                    <p>Indian Institute Of Technology Kharagpur</p>
+                    <p>West Medinipur, West Bengal, India - 721302</p>
+                </div>
+            </div>
+
+
+            <!-- Experience Information -->
+            <div class="bg-section">
+                <div class="info">
+                    <hr>
+                    <h3><i class="fas fa-chart-line"></i>Experience</h3>
+                    <hr>
+                    <p><strong>1998 - Present</strong>
+                    <p>Professor</p>
+                    <p>Department of Computer Science and Engineering</p>
+                    <p>Indian Institute of Technology Kharagpur, Paschim Medinipur</p>
+                </div>
+            </div>
+
+            <!-- Qualification Information -->
+            <div class="bg-section">
+                <div class="info">
+                    <hr>
+                    <h3><i class="fas fa-graduation-cap"></i>Qualification</h3>
+                    <hr>
+                    <p><strong>1996</strong></p>
+                    <p><strong>Ph.D:</strong> Indian Institute of Technology, Kharagpur</p>
+                </div>
+            </div>
+
+            <!---publication section--->
+            <div class="bg-section">
+                <div class="info">
+                    <hr>
+                    <h3><i class="fas fa-book"></i> Publications</h3>
+                    <hr>
+                    <p><strong>Preface</strong></p>
+                    <p>Devismes S.;Mandal P.S.;Saradhi V.;Prasad B.;Molla A.R.;Sharma G.</p>
+
+                    <p><strong><br>Finding hierarchy of clusters</strong></p>
+                    <p>Pal S.S.;Mukhopadhyay J.;Sarkar S.</p>
+
+                    <p><strong><br>Delineating Variabilities of Groundwater Level Prediction Across the Agriculturally Intensive Transboundary Aquifers of South Asia</strong></p>
+                    <p>Malakar P.;Bhanja S.N.;Dash A.A.;Saha D.;Ray R.K.;Sarkar S.;Zahid A.;Mukherjee A.</p>
+
+                    <p><strong><br>Meta-ED: Cross-lingual Event Detection Using Meta-learning for Indian Languages</strong></p>
+                    <p>Roy A.;Sharma I.;Sarkar S.;Goyal P.</p>
+
+                    <p><strong><br>Dysarthric Speech Recognition using Depthwise Separable Convolutions: Preliminary Study</strong></p>
+                    <p>Shahamiri S.R.;Mandal K.;Sarkar S.</p>
+
+                    <p><strong><br>MorphBen: A Neural Morphological Analyzer for Bengali Language</strong></p>
+                    <p>Das A.;Sarkar S.</p>
+
+                    <p><strong><br>An Approach to Battery Pack Balancing Control Optimizing the Usable Capacity of the Battery Pack</strong></p>
+                    <p>Mukherjee N.;Sarkar S.</p>
+
+                    <p><strong><br>Estimating Cluster numbers in Landsat-8 images using Stability Analysis</strong></p>
+                    <p>Chatterjee A.;Pal S.S.;Mukhopadhyay J.;Das P.P.;Sarkar S.</p>
+
+                    <p><strong><br>Deep Learning-Based Forecasting of Groundwater Level Trends in India: Implications for Crop Production and Drinking Water Supply</strong></p>
+                    <p>Malakar P.;Mukherjee A.;Bhanja S.N.;Sarkar S.;Saha D.;Ray R.K.</p>
+
+                    <p><strong><br>Three decades of depth-dependent groundwater response to climate variability and human regime in the transboundary Indus-Ganges-Brahmaputra-Meghna mega river basin aquifers</strong></p>
+                    <p>Malakar P.;Mukherjee A.;Bhanja S.N.;Ganguly A.R.;Ray R.K.;Zahid A.;Sarkar S.;Saha D.;Chattopadhyay S.</p>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

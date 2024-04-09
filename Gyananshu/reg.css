@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#googleLogin {
+    background-color: #db4437;
+    color: white;
+    /* Other styling as needed */
+}
+
+#linkedinLogin {
+    background-color: #0077b5;
+    color: white;
+    /* Other styling as needed */
+}
+
+#googleLogin:hover, #linkedinLogin:hover {
+    opacity: 0.8;
+}
+.or-divider {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.or-divider::before, .or-divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or-divider::before {
+    left: 0;
+}
+
+.or-divider::after {
+    right: 0;
+}
+
+.or-divider span {
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+
+.registration-form {
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 20px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

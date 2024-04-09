@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* CSS styles here */
+
+.poppins-regular {
+    font-family: "Poppins", 'sans-serif';
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    background-size: cover;
+    background-position: center;
+    color: #171414; /* Set text color to contrast with the background */
+}
+
+/* Reset some default styles and set box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.outer-section {
+    background-color: #ebebeb; 
+    padding: 20px; 
+}
+
+.inner-section {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.faculty {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image {
+    flex: 0 0 10%; /* Adjust the width of the image column */
+    margin-right: 20px; /* Add spacing between image and details */
+    margin-left: 30px;
+    border: 5px solid #6f6f6f; /* Add border with 2px width and solid color */
+    border-radius: 5px; /* Add border radius for aesthetics */
+}
+
+.image img {
+    max-width: 200px;
+    width: 200px;
+    height: 250px;
+    border-radius: 3px; /* Optional: Add border radius to the image itself */
+}
+
+.details {
+    flex: 1; 
+}
+.details h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+.details h3{
+    margin-left: 60px;
+}
+
+.details p {
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.details ul {
+    margin-left: 60px; /* Adjust as needed */
+}
+
+
+/* Add this CSS to your existing faculty.css file */
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 550px;
+}
+
+/* CSS styles */
+.edit-button {
+    position: fixed;
+    top: 130px;
+    right: 75px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.edit-button:hover {
+    background-color: #656464;
+}
+
+
+/* Style the table */
+/*
+.section-table {
+    width: 222px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Style the table header */
+/*.section-table th {
+    padding: 5px;
+    text-align: left;
+    background-color: #ebebeb;
+    color: black;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+
+.section-table tr {
+    text-align: left;
+}
+
+.section-table td {
+    padding: 15px;
+    border: 1px solid #666666;
+}
+
+.section-table tr:nth-child(even) {
+    background-color: #606060;
+}
+
+.section-table tr:hover {
+    background-color: #474747;
+}
+ 
+.section-table th a {
+    cursor: pointer; 
+    color: #007bff; 
+} */
+
+.expertise-section {
+    margin-left: 20px;
+}
+
+.bg-section {
+    background-color: #ebebeb;
+    padding-top: 10px;
+    padding: 20px; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+    margin-left: 300px;
+}
+
+.info {
+    padding-left: 20px; 
+    padding-top: 7px;
+}
+
+.info h3 {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 5px;
+}
+h3 i{
+    margin-right: 15px;
+}
+
+.info ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.info ul li {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+}
+
+.info h3 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+}
